@@ -3,6 +3,7 @@ package groupinginTestNG;
 import org.testng.annotations.Test;
 
 public class loginTests {
+	//////
   
 	@Test(priority=1 , groups = {"sanity"})
 	void loginByEmail()
